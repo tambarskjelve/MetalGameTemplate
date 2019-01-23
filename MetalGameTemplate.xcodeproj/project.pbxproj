@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20ADB6E821F9098500787242 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB6E721F9098500787242 /* AppDelegate.m */; };
+		20ADB6EB21F9098500787242 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB6EA21F9098500787242 /* GameViewController.m */; };
+		20ADB6EE21F9098500787242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ADB6EC21F9098500787242 /* Main.storyboard */; };
+		20ADB6F121F9098500787242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ADB6EF21F9098500787242 /* LaunchScreen.storyboard */; };
+		20ADB6F421F9098500787242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB6F321F9098500787242 /* main.m */; };
+		20ADB6FD21F9098500787242 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB6FC21F9098500787242 /* AppDelegate.m */; };
+		20ADB70021F9098500787242 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB6FF21F9098500787242 /* GameViewController.m */; };
+		20ADB70321F9098500787242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20ADB70121F9098500787242 /* Main.storyboard */; };
+		20ADB70621F9098500787242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB70521F9098500787242 /* main.m */; };
+		20ADB70721F9098500787242 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB6DB21F9098400787242 /* Renderer.m */; };
+		20ADB70821F9098500787242 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB6DB21F9098400787242 /* Renderer.m */; };
+		20ADB70921F9098500787242 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB6DD21F9098400787242 /* Shaders.metal */; };
+		20ADB70A21F9098500787242 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 20ADB6DD21F9098400787242 /* Shaders.metal */; };
+		20ADB70B21F9098500787242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ADB6DE21F9098500787242 /* Assets.xcassets */; };
+		20ADB70C21F9098500787242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ADB6DE21F9098500787242 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20ADB6DA21F9098400787242 /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		20ADB6DB21F9098400787242 /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
+		20ADB6DC21F9098400787242 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		20ADB6DD21F9098400787242 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		20ADB6DE21F9098500787242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20ADB6E321F9098500787242 /* MetalGameTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalGameTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20ADB6E621F9098500787242 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20ADB6E721F9098500787242 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20ADB6E921F9098500787242 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		20ADB6EA21F9098500787242 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		20ADB6ED21F9098500787242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20ADB6F021F9098500787242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20ADB6F221F9098500787242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20ADB6F321F9098500787242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20ADB6F921F9098500787242 /* MetalGameTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalGameTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20ADB6FB21F9098500787242 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20ADB6FC21F9098500787242 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20ADB6FE21F9098500787242 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		20ADB6FF21F9098500787242 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		20ADB70221F9098500787242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20ADB70421F9098500787242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20ADB70521F9098500787242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20ADB6E021F9098500787242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ADB6F621F9098500787242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20ADB6D421F9098400787242 = {
+			isa = PBXGroup;
+			children = (
+				20ADB6D921F9098400787242 /* MetalGameTemplate Shared */,
+				20ADB6E521F9098500787242 /* MetalGameTemplate iOS */,
+				20ADB6FA21F9098500787242 /* MetalGameTemplate macOS */,
+				20ADB6E421F9098500787242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20ADB6D921F9098400787242 /* MetalGameTemplate Shared */ = {
+			isa = PBXGroup;
+			children = (
+				20ADB6DA21F9098400787242 /* Renderer.h */,
+				20ADB6DB21F9098400787242 /* Renderer.m */,
+				20ADB6DC21F9098400787242 /* ShaderTypes.h */,
+				20ADB6DD21F9098400787242 /* Shaders.metal */,
+				20ADB6DE21F9098500787242 /* Assets.xcassets */,
+			);
+			path = "MetalGameTemplate Shared";
+			sourceTree = "<group>";
+		};
+		20ADB6E421F9098500787242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20ADB6E321F9098500787242 /* MetalGameTemplate.app */,
+				20ADB6F921F9098500787242 /* MetalGameTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20ADB6E521F9098500787242 /* MetalGameTemplate iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20ADB6E621F9098500787242 /* AppDelegate.h */,
+				20ADB6E721F9098500787242 /* AppDelegate.m */,
+				20ADB6E921F9098500787242 /* GameViewController.h */,
+				20ADB6EA21F9098500787242 /* GameViewController.m */,
+				20ADB6EC21F9098500787242 /* Main.storyboard */,
+				20ADB6EF21F9098500787242 /* LaunchScreen.storyboard */,
+				20ADB6F221F9098500787242 /* Info.plist */,
+				20ADB6F321F9098500787242 /* main.m */,
+			);
+			path = "MetalGameTemplate iOS";
+			sourceTree = "<group>";
+		};
+		20ADB6FA21F9098500787242 /* MetalGameTemplate macOS */ = {
+			isa = PBXGroup;
+			children = (
+				20ADB6FB21F9098500787242 /* AppDelegate.h */,
+				20ADB6FC21F9098500787242 /* AppDelegate.m */,
+				20ADB6FE21F9098500787242 /* GameViewController.h */,
+				20ADB6FF21F9098500787242 /* GameViewController.m */,
+				20ADB70121F9098500787242 /* Main.storyboard */,
+				20ADB70421F9098500787242 /* Info.plist */,
+				20ADB70521F9098500787242 /* main.m */,
+			);
+			path = "MetalGameTemplate macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20ADB6E221F9098500787242 /* MetalGameTemplate iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20ADB70F21F9098500787242 /* Build configuration list for PBXNativeTarget "MetalGameTemplate iOS" */;
+			buildPhases = (
+				20ADB6DF21F9098500787242 /* Sources */,
+				20ADB6E021F9098500787242 /* Frameworks */,
+				20ADB6E121F9098500787242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetalGameTemplate iOS";
+			productName = "MetalGameTemplate iOS";
+			productReference = 20ADB6E321F9098500787242 /* MetalGameTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20ADB6F821F9098500787242 /* MetalGameTemplate macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20ADB71221F9098500787242 /* Build configuration list for PBXNativeTarget "MetalGameTemplate macOS" */;
+			buildPhases = (
+				20ADB6F521F9098500787242 /* Sources */,
+				20ADB6F621F9098500787242 /* Frameworks */,
+				20ADB6F721F9098500787242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MetalGameTemplate macOS";
+			productName = "MetalGameTemplate macOS";
+			productReference = 20ADB6F921F9098500787242 /* MetalGameTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20ADB6D521F9098400787242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Longship;
+				TargetAttributes = {
+					20ADB6E221F9098500787242 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					20ADB6F821F9098500787242 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 20ADB6D821F9098400787242 /* Build configuration list for PBXProject "MetalGameTemplate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20ADB6D421F9098400787242;
+			productRefGroup = 20ADB6E421F9098500787242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20ADB6E221F9098500787242 /* MetalGameTemplate iOS */,
+				20ADB6F821F9098500787242 /* MetalGameTemplate macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20ADB6E121F9098500787242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20ADB6EE21F9098500787242 /* Main.storyboard in Resources */,
+				20ADB70B21F9098500787242 /* Assets.xcassets in Resources */,
+				20ADB6F121F9098500787242 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ADB6F721F9098500787242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20ADB70C21F9098500787242 /* Assets.xcassets in Resources */,
+				20ADB70321F9098500787242 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20ADB6DF21F9098500787242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20ADB70721F9098500787242 /* Renderer.m in Sources */,
+				20ADB6EB21F9098500787242 /* GameViewController.m in Sources */,
+				20ADB6F421F9098500787242 /* main.m in Sources */,
+				20ADB6E821F9098500787242 /* AppDelegate.m in Sources */,
+				20ADB70921F9098500787242 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ADB6F521F9098500787242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20ADB70821F9098500787242 /* Renderer.m in Sources */,
+				20ADB70021F9098500787242 /* GameViewController.m in Sources */,
+				20ADB70621F9098500787242 /* main.m in Sources */,
+				20ADB6FD21F9098500787242 /* AppDelegate.m in Sources */,
+				20ADB70A21F9098500787242 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20ADB6EC21F9098500787242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20ADB6ED21F9098500787242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20ADB6EF21F9098500787242 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20ADB6F021F9098500787242 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		20ADB70121F9098500787242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20ADB70221F9098500787242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20ADB70D21F9098500787242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		20ADB70E21F9098500787242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		20ADB71021F9098500787242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y86N6C644V;
+				INFOPLIST_FILE = "MetalGameTemplate iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Longship.MetalGameTemplate;
+				PRODUCT_NAME = MetalGameTemplate;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20ADB71121F9098500787242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y86N6C644V;
+				INFOPLIST_FILE = "MetalGameTemplate iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Longship.MetalGameTemplate;
+				PRODUCT_NAME = MetalGameTemplate;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20ADB71321F9098500787242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y86N6C644V;
+				INFOPLIST_FILE = "MetalGameTemplate macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = Longship.MetalGameTemplate;
+				PRODUCT_NAME = MetalGameTemplate;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20ADB71421F9098500787242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y86N6C644V;
+				INFOPLIST_FILE = "MetalGameTemplate macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = Longship.MetalGameTemplate;
+				PRODUCT_NAME = MetalGameTemplate;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20ADB6D821F9098400787242 /* Build configuration list for PBXProject "MetalGameTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20ADB70D21F9098500787242 /* Debug */,
+				20ADB70E21F9098500787242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20ADB70F21F9098500787242 /* Build configuration list for PBXNativeTarget "MetalGameTemplate iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20ADB71021F9098500787242 /* Debug */,
+				20ADB71121F9098500787242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20ADB71221F9098500787242 /* Build configuration list for PBXNativeTarget "MetalGameTemplate macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20ADB71321F9098500787242 /* Debug */,
+				20ADB71421F9098500787242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20ADB6D521F9098400787242 /* Project object */;
+}
